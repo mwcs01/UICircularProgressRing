@@ -14,10 +14,6 @@ let package = Package(
         )
     ],
     dependencies: [
-        .package(
-            url: "https://github.com/mwcs01/UICircularProgressRing.git",
-            .branch("master")
-        )
     ],
     targets: [
         .target(
