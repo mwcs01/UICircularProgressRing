@@ -13,28 +13,12 @@ let package = Package(
             targets: ["UICircularProgressRing"]
         )
     ],
-    dependencies: [
-    ],
+    dependencies: [],
     targets: [
         .target(
             name: "UICircularProgressRing",
             dependencies: [],
             path: "Sources"
-        ),
-        .testTarget(
-            name: "UICircularProgressRingTests",
-            dependencies: [
-                "UICircularProgressRing"
-            ],
-            path: "Tests"
-        ),
-        .testTarget(
-            name: "UICircularProgressRingSnapshotTests",
-            dependencies: [
-                "UICircularProgressRing",
-                "SnapshotTesting"
-            ],
-            path: "SnapshotTests"
         )
     ]
 )
